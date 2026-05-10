@@ -31,7 +31,7 @@ Quanto maior o duty cycle (ciclo de trabalho), maior a velocidade do motor.
 
 ---
 
-## 5. Instruções de montagem
+## Instruções de montagem
 
 1. Conecte o pino VSS (pino 16 do L293D) ao 5V do NodeMCU.  
 2. Conecte o pino VS (pino 8 do L293D) ao positivo da bateria (1,5V).  
@@ -44,7 +44,7 @@ Quanto maior o duty cycle (ciclo de trabalho), maior a velocidade do motor.
 
 ---
 
-## 6. Funcionamento do projeto
+## Funcionamento do projeto
 
 Após o upload do código, o NodeMCU gera um sinal PWM no pino definido (ex: D1 ou outro configurado no código) e o driver L293D controla a energia entregue ao motor.
 
